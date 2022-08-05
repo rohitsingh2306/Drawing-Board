@@ -40,6 +40,8 @@ function colorChange() {
 function sizeChange() {
 	mySize = size.value;
 	ctx.lineWidth = mySize;
+	const sizevarry = document.querySelector("span");
+	sizevarry.innerHTML = `${mySize}`;
 }
 
 //2.Make brush work
